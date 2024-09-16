@@ -17,8 +17,14 @@ const mostrarProductos = (datos) => {
             <h4>${dato.titulo}</h4>
             <p class="card-text ">${dato.descripcion}
             </p>
+     
         </div>
-        <button class="btn btn-outline-success mt-auto mb-3" type="submit">Comprar</button>
+       
+        <div class="card-precio-comprar d-flex justify-content-center align-items-center w-100 px-3 ">
+            <p class="card-text ">$${dato.precio}</p>    
+            
+            <button class="btn btn-outline-success mt-auto mb-3 m-3" type="submit">Comprar</button>
+        </div>
 
     </div>
 
